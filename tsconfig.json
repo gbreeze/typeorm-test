@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        // "strict": false,
+        "noImplicitAny": false, // not working?
+        // "strictNullChecks": false,
+        // "suppressImplicitAnyIndexErrors": true,
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "sourceMap": true,        
+        "declaration": true,
+        "outDir": "dist",
+        "baseUrl": ".",
+        "paths": {
+            "*": [
+                "node_modules/*",
+                "src/types/*"
+            ]
+        }
+    },
+    "include": [
+        "src/**/*",
+        "typings-custom/**/*.d.ts",
+    ],
+    "exclude": [
+        "dist"
+    ]
+}

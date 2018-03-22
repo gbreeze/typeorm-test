@@ -1,0 +1,24 @@
+{
+  "name": "typeorm-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "dependencies": {
+    "reflect-metadata": "^0.1.12",
+    "sqlite3": "^3.1.13",
+    "express": "^4.16.2",
+    "tslint": "^5.9.1",
+    "typeorm": "0.1.16",
+    "typescript": "^2.7.2",
+    "typescript-ioc": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.11.1",
+    "@types/node": "9.4.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": ""
+}
